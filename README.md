@@ -29,3 +29,20 @@ Submissions will be evaluated holistically and based on a combination of effort,
 **You may use any programming language you feel most comfortable. We recommend Python because it is the easiest to implement. You're allowed to use any library or API you want to implement this, just document which ones you used in this README file.** Try to complete this as soon as possible.
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
+
+Attempt 1 (Could not get the model to output data due to not having certain libraries installed so I decided to give an overview of what I would do)
+
+This process begins by identifying the true and false values. In this case, we would have to identify which state is the normal state, and assigned value 0, and which state is the abnormal state, and assigned the value 1. In this problem, we can assign the edible mushrooms to the normal state with a value or 0 and we can assign poisonous mushrooms to the abnormal state with a value of 1. This type of classification uses the Bernoulli distribution, a distribution in which the event will have have a binary outcome, in this case, being poisonous or edible. The model will assign values of 0 or 1 to each mushroom depending on a variety of different variables which include, cap shape, cap color, gill color, etc. The dataset in this project assigns 23 unique features to distinguish each mushroom, therefore we must assign a predictive model to identify the edible and poisonous mushrooms. The libraries that I would use are as follows:
+
+NumPy
+Pandas
+Seaborn
+Matplotlib
+Graphviz
+Scikit-learn
+
+The model will learn to use variables like cap shape, cap color and gill color to distinguish between edible and poisonous mushrooms
+
+
+
+
