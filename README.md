@@ -30,6 +30,8 @@ Submissions will be evaluated holistically and based on a combination of effort,
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file. However, we highly recommend giving the challenge a try, you just might learn something new!
 
+   
+   
 Attempt 1 (Could not get the model to output data due to not having certain libraries installed so I decided to give an overview of what I would do)
 
 This process begins by identifying the true and false values. In this case, we would have to identify which state is the normal state, and assigned value 0, and which state is the abnormal state, and assigned the value 1. In this problem, we can assign the edible mushrooms to the normal state with a value or 0 and we can assign poisonous mushrooms to the abnormal state with a value of 1. This type of classification uses the Bernoulli distribution, a distribution in which the event will have have a binary outcome, in this case, being poisonous or edible. The model will assign values of 0 or 1 to each mushroom depending on a variety of different variables which include, cap shape, cap color, gill color, etc. The dataset in this project assigns 23 unique features to distinguish each mushroom, therefore we must assign a predictive model to identify the edible and poisonous mushrooms. The libraries that I would use are as follows:
@@ -41,8 +43,11 @@ Matplotlib
 Graphviz
 Scikit-learn
 
-The model will learn to use variables like cap shape, cap color and gill color to distinguish between edible and poisonous mushrooms
+The model will learn to use variables like cap shape, cap color and gill color to distinguish between edible and poisonous mushrooms. The training split that I would use for this predictive model would be a 50/50 split to start with and adjust it accordingly as needed to see which splits yield the most accurate results. 
 
+The resources I used for this are listed below:
 
+https://medium.com/analytics-vidhya/mushroom-classification-using-different-classifiers-aa338c1cd0ff
+https://dainesanalytics.blog/2018/06/19/binary-classification-model-for-edible-mushrooms-using-python/
 
 
